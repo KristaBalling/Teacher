@@ -1,8 +1,8 @@
 package com.theironyard;
 
-public class SubstituteTeacher extends Teacher {
-    @Override
-    public void teach() {
-        //do nothing...
+public class SubstituteTeacher extends SchoolStaff {
+
+    public void teach() throws CannotTeachException {
+        throw new CannotTeachException();
     }
 }

@@ -1,6 +1,6 @@
 package com.theironyard;
 
-public class ScienceTeacher extends Teacher {
+public class ScienceTeacher extends SchoolStaff implements CourseInstructor {
     @Override
     public void teach() {
         System.out.println("taught science...");
